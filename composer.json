@@ -1,0 +1,20 @@
+{
+    "name": "pankaj/sps",
+    "description": "this is used to send sms",
+    "type": "library",
+    "require": {
+        "twilio/sdk": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Pankaj\\Sps\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "youremail@example.com"
+        }
+    ]
+}
